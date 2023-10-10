@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h1 className="text-4xl font-bold underline">
+      <h1 className="text-4xl font-bold underline bg-blue-700">
           Hello world!
       </h1>
       <div className="card">
