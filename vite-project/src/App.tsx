@@ -4,12 +4,14 @@ import AboutMePage from "./pages/AboutMePage";
 import ContactMePage from "./pages/ContactMePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResumePage from "./pages/ResumePage";
+import { NavBar } from "./components/NavBar";
 
 
 function App() {
   return (
     <BrowserRouter>
     <div className="portfolioStyle">
+      <NavBar />
       <Routes>
         <Route path="/" element={<AboutMePage />}></Route>
         <Route path="/Resume" element={<ResumePage />}></Route>
