@@ -1,4 +1,4 @@
-import '../assets/css/PortfolioStyles.css';
+import '../assets/css/App.css';
 
 const AboutMePage = () => {
     return (
