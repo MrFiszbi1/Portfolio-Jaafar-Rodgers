@@ -1,17 +1,23 @@
-import { useState } from 'react';
-import reactLogo from './assets/images/react.svg';
-import viteLogo from '/vite.svg';
 import "./assets/css/PortfolioStyles.css";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import AboutMePage from "./pages/AboutMePage";
+import ContactMePage from "./pages/ContactMePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ResumePage from "./pages/ResumePage";
+
 
 function App() {
   return (
-    <>
-      <div className={"portfolioStyle"}>
-        <h1 className="text-4xl font-bold underline">
-            Hello world!
-        </h1>
-      </div>
-    </>
+    <BrowserRouter>
+    <div className="portfolioStyle">
+      <Routes>
+        <Route path="/" element={<AboutMePage />}></Route>
+        <Route path="/Resume" element={<ResumePage />}></Route>
+        <Route path="/Projects" element={<ProjectsPage />}></Route>
+        <Route path="/Contact" element={<ContactMePage />}></Route>
+      </Routes>
+    </div>
+    </BrowserRouter>
   )
 }
 
