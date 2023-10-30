@@ -6,7 +6,7 @@ export function ProfilePic() {
         <img
             src={`${baseUrl}${imagePath}`}
             alt = "Profile Picture of Jaafar Rodgers"
-            className="w-1/2 rounded-full ml-5 mt-3" 
+            className="w-1/2 rounded-full mx-5 mt-3" 
         />
     )
 }

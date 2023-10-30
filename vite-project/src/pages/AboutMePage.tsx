@@ -1,11 +1,12 @@
 import '../assets/css/App.css';
 import { ProfilePic } from '../components/ProfilePic';
+import { Bio } from '../components/Bio';
 
 const AboutMePage = () => {
     return (
-        <div>
-            <h1>About Me Page</h1>
+        <div className="flex flex-row">
             <ProfilePic />
+            <Bio />
         </div>
     );
 };
