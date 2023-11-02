@@ -7,7 +7,7 @@ const AboutMePage = () => {
     return (
         <div className="flex flex-col h-full">
             <Name />
-            <div className="flex flex-row h-1/2">
+            <div className="flex flex-col sm:flex-row items-center justify-center">
                 <ProfilePic />
                 <Bio />
             </div>

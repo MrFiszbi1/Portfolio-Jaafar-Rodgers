@@ -1,6 +1,6 @@
 export function Bio() {
     return (
-        <div className="me-auto mt-3 bg-black rounded h-auto w-1/2">
+        <div className="mx-auto mt-3 bg-black rounded overflow-auto w-1/2 h-1/3">
             <p className="mx-3 mt-3">
                 I am a dedicated and results-driven professional with a solid foundation in Computer Science,
                 backed by a Bachelor of Science in Computer Science (GPA: 3.62) from Portland State University (PSU).
