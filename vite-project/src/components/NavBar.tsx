@@ -4,9 +4,9 @@ import '../assets/css/NavBar.css'
 export function NavBar() {
 	return (
 		<nav className="bg-primary rounded-b shadow-lg mb-4">
-			<div className="navbar justify-between">
+			<div className="navbar">
 				<div className="navbar-left">
-					<ul className="menu menu-horizontal flex items-center">
+					<ul className="menu menu-horizontal flex flex-row">
 						<li><Link to="/" className="navBarButton">About Me</Link></li>
 						<li><Link to="/Resume" className="navBarButton">Resume</Link></li>
 						<li><Link to="/Projects" className="navBarButton">Projects</Link></li>
