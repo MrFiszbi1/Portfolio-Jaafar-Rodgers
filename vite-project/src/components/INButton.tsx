@@ -3,12 +3,13 @@ export function INButton() {
         <a href="https://www.linkedin.com/in/jaafar-rodgers/"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
+        className="btn btn-primary text-white font-bold py-2 px-4 rounded inline-block">
             <img
             src="/linkedin.svg" 
             alt="Link to LinkedIn page"
-            width="50"
-            height="50"
+            width="100"
+            height="100"
+            className="w-fit"
             />
         </a>
     );

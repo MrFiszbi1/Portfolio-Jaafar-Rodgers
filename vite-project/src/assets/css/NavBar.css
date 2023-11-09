@@ -1,3 +1,4 @@
-.navBarButton {
-  @apply btn btn-primary;
+.navBarItem {
+  display: flex;
+  align-items: center;
 }
