@@ -26,3 +26,11 @@
     overflow: auto;
     color: white;
 }
+
+.linkButton {
+    @apply btn btn-primary text-white font-bold rounded mt-4
+}
+
+.logo {
+    @apply w-full h-full py-1
+}

@@ -1,12 +1,12 @@
-export function INButton() {
+export function GitButton() {
     return (
-        <a href="https://www.linkedin.com/in/jaafar-rodgers/"
+        <a href="https://github.com/MrFiszbi1"
         target="_blank"
         rel="noopener noreferrer"
         className="linkButton">
             <img
-            src="/linkedin.svg" 
-            alt="Link to LinkedIn page"
+            src="/github-mark-white.svg" 
+            alt="Link to my GitHub page"
             className="logo"
             />
         </a>
