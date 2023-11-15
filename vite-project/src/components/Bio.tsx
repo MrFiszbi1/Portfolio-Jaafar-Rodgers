@@ -2,7 +2,7 @@ import { INButton } from '../components/INButton';
 import { GitButton } from './GitButton';
 export function Bio() {
     return (
-        <div className="flex flex-col bg-black rounded overflow-auto w-3/4 md:w-1/2 h-fit mx-3 px-3 pt-4 pb-6">
+        <div className="flex flex-col bg-black rounded overflow-auto w-3/4 md:w-1/2 h-fit mx-3 px-3 pt-4 pb-6 shadow-2xl">
             <p>
                 I am a dedicated and results-driven professional with a solid foundation in Computer Science,
                 backed by a Bachelor of Science in Computer Science (GPA: 3.62) from Portland State University (PSU).
