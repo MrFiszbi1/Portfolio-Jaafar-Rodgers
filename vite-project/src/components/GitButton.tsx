@@ -5,7 +5,7 @@ export function GitButton() {
         rel="noopener noreferrer"
         className="linkButton">
             <img
-            src="/github-mark-white.svg" 
+            src="/GitHub-Cat.svg" 
             alt="Link to my GitHub page"
             className="logo"
             />
