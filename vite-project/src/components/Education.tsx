@@ -6,6 +6,6 @@ export function Education() {
                 <span>Bachelor of Science in Computer Science (2023)</span>
                 <span>Portland State University - GPA: 3.7</span>
             </div>
-        </div>
+        </div>  
     )
 }

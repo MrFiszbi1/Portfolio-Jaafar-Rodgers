@@ -1,9 +1,12 @@
 import '../assets/css/PortfolioStyles.css';
+import { ProjectMenu } from '../components/ProjectMenu';
+import { Name } from '../components/Name';
 
 const ProjectsPage = () => {
     return (
-        <div>
-            <h1>Projects Page</h1>
+        <div className="flex flex-col h-full">
+            <Name />
+            <ProjectMenu />
         </div>
     );
 };
