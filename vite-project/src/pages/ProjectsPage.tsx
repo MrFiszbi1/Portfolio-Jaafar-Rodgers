@@ -1,11 +1,11 @@
 import '../assets/css/PortfolioStyles.css';
 import { ProjectMenu } from '../components/ProjectMenu';
-import { Name } from '../components/Name';
+import Tabs from '../components/tabComponent/Tabs';
 
 const ProjectsPage = () => {
     return (
         <div className="flex flex-col h-full">
-            <Name />
+            <Tabs />
             <ProjectMenu />
         </div>
     );
