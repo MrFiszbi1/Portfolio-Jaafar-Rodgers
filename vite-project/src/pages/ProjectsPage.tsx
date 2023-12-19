@@ -6,7 +6,6 @@ const ProjectsPage = () => {
     return (
         <div className="flex flex-col h-full">
             <Tabs/>
-            <ProjectMenu/>
         </div>
     );
 };

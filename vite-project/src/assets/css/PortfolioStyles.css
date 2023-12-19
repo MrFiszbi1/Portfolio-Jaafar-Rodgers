@@ -50,3 +50,7 @@
 .tabButton {
     @apply hover:bg-violet-600 active:bg-violet-700 py-1 px-3 rounded
 }
+
+.tabButton.active {
+    @apply bg-secondary;
+}
