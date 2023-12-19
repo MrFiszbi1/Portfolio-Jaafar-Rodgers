@@ -54,3 +54,11 @@
 .tabButton.active {
     @apply bg-secondary;
 }
+
+.projectBox {
+    @apply bg-secondary rounded py-2 px-4 w-11/12 m-auto my-3
+}
+
+.projectHeader {
+    @apply flex justify-start text-2xl px-2
+}

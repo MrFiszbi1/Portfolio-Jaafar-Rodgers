@@ -1,5 +1,4 @@
 import '../assets/css/PortfolioStyles.css';
-import {ProjectMenu} from '../components/ProjectMenu';
 import Tabs from '../components/tabComponent/Tabs';
 
 const ProjectsPage = () => {
