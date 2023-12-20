@@ -2,6 +2,7 @@ import { useState } from "react";
 import CTab from "../allTabs/CTab.tsx";
 import JavaTab from "../allTabs/JavaTab.tsx";
 import WebTab from "../allTabs/WebTab.tsx";
+import ShadertoyTab from "../allTabs/ShadertoyTab.tsx";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("WebTab");
 
@@ -18,6 +19,12 @@ const Tabs = () => {
         // update the state to WebTab
         setActiveTab("WebTab");
     };
+
+    const handleShadertoyTab = () => {
+        // update the state to WebTab
+        setActiveTab("ShadertoyTab");
+    };
+
 
     return (
         <div>
@@ -42,12 +49,19 @@ const Tabs = () => {
                     >
                         Java
                     </li>
+                    <li
+                        className={`tabButton ${activeTab === "ShadertoyTab" ? "active" : "tabButton"}`}
+                        onClick={handleShadertoyTab}
+                    >
+                        Shadertoy
+                    </li>
                 </ul>
             </div>
             <div>
                 {activeTab === "CTab" ? <CTab/> : null}
                 {activeTab === "JavaTab" ? <JavaTab/> : null}
                 {activeTab === "WebTab" ? <WebTab/> : null}
+                {activeTab === "ShadertoyTab" ? <ShadertoyTab/> : null}
             </div>
         </div>
     );
