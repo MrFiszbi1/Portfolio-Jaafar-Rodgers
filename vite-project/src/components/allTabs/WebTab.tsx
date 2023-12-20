@@ -1,16 +1,21 @@
 const WebTab = () => {
+    const baseUrl = import.meta.env.BASE_URL;
+    const imagePath = "src/assets/images/PortfolioJaafarRodgers.jpg";
+
     return (
         <div className="WebTab mt-8 bg-black rounded py-2 px-4 w-11/12 m-auto">
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full flex justify-center my-3">
                     <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                     alt="Shoes"/></figure>
+                        <figure>
+                            <img src={`${baseUrl}${imagePath}`}
+                            alt="Picture of the Portfolio Website"/>
+                        </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h2 className="card-title">Portfolio-Jaafar-Rodgers</h2>
+                            <p>Code for this website</p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                                <button className="btn btn-primary">Github</button>
                             </div>
                         </div>
                     </div>
@@ -22,7 +27,7 @@ const WebTab = () => {
                 <div id="slide2" className="carousel-item relative w-full flex justify-center my-3">
                     <div className="card w-96 bg-base-100 shadow-xl">
                         <figure><img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-                                     alt="Shoes"/></figure>
+                                     alt="City"/></figure>
                         <div className="card-body">
                             <h2 className="card-title">Shoes!</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
