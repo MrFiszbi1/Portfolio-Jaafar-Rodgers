@@ -14,7 +14,7 @@ export function Bio() {
             </p>
             <div className="flex justify-center space-x-2 flex-row flex-wrap">
                 <INButton/>
-                <GitButton/>
+                <GitButton href="https://github.com/MrFiszbi1" />
             </div>
         </div>
     )

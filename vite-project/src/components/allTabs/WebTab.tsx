@@ -1,3 +1,4 @@
+import {GitButton} from "../GitButton.tsx";
 const WebTab = () => {
     const baseUrl = import.meta.env.BASE_URL;
     const imagePath = "src/assets/images/PortfolioJaafarRodgers.jpg";
@@ -15,7 +16,7 @@ const WebTab = () => {
                             <h2 className="card-title">Portfolio-Jaafar-Rodgers</h2>
                             <p>Code for this website</p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Github</button>
+                                <GitButton href="https://github.com/MrFiszbi1/Portfolio-Jaafar-Rodgers" />
                             </div>
                         </div>
                     </div>
