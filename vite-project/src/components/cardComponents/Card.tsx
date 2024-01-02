@@ -28,10 +28,10 @@ const Card: React.FC<CardProps> = ({
                 <img
                     src={`${baseUrl}${imagePath}`}
                     alt={altText}
-                    className="w-full h-[124px] object-cover object-top"
+                    className="w-full h-[134px] object-cover object-top"
                 />
             </figure>
-            <div className="card-body">
+            <div className="card-body pt-3">
                 <h2 className="card-title">{title}</h2>
                 <p className="text-gray-300">{description}</p>
                 <p className="text-xs text-gray-500">Using: {projectStack}</p>
