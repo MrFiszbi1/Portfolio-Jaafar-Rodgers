@@ -8,7 +8,7 @@ const PortfolioCard = () => {
             title="Portfolio-Jaafar-Rodgers"
             description="Code for this website"
             gitHubUrl="https://github.com/MrFiszbi1/Portfolio-Jaafar-Rodgers"
-            projectStack="React.js + TypeScript + Tailwind"
+            projectStack="React.js + TypeScript + Tailwind + DaisyUI + Vite"
         />
     );
 }

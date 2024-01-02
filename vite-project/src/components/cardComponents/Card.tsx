@@ -23,7 +23,11 @@ const Card: React.FC<CardProps> = ({
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-                <img src={`${baseUrl}${imagePath}`} alt={altText} />
+                <img
+                    src={`${baseUrl}${imagePath}`}
+                    alt={altText}
+                    className="w-full h-[124px] object-cover object-top"
+                />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
