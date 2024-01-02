@@ -1,8 +1,8 @@
 import { useState } from "react";
-import CTab from "../allTabs/CTab.tsx";
-import JavaTab from "../allTabs/JavaTab.tsx";
-import WebTab from "../allTabs/WebTab.tsx";
-import ShadertoyTab from "../allTabs/ShadertoyTab.tsx";
+import CTab from "./CTab.tsx";
+import JavaTab from "./JavaTab.tsx";
+import WebTab from "./WebTab.tsx";
+import ShadertoyTab from "./ShadertoyTab.tsx";
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("WebTab");
 

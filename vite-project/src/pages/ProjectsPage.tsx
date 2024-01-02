@@ -1,5 +1,5 @@
 import '../assets/css/PortfolioStyles.css';
-import Tabs from '../components/tabComponent/Tabs';
+import Tabs from '../components/TabComponents/Tabs.tsx';
 
 const ProjectsPage = () => {
     return (

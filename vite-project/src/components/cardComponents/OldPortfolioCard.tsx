@@ -9,7 +9,7 @@ const OldPortfolioCard = () => {
             description="My previous Portfolio website. Made as a class project for intro into web devlopment"
             gitHubUrl="https://github.com/MrFiszbi1/portfolio"
             websiteUrl="https://mrfiszbi1.github.io/portfolio/"
-            projectStack="React.js + TypeScript + Tailwind"
+            projectStack="JavaScript + Bootstrap + HTML + CSS"
         />
     );
 }
