@@ -1,5 +1,5 @@
-import { GitButton } from "../GitButton.tsx";
-import {LinkButton} from "../LinkButton.tsx";
+import { GitButton } from "../buttonComponents/GitButton.tsx";
+import {LinkButton} from "../buttonComponents/LinkButton.tsx";
 
 interface CardProps {
     imagePath: string;

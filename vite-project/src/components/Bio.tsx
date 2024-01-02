@@ -1,5 +1,5 @@
-import {INButton} from '../components/INButton';
-import {GitButton} from './GitButton';
+import {INButton} from './buttonComponents/INButton.tsx';
+import {GitButton} from './buttonComponents/GitButton.tsx';
 
 export function Bio() {
     return (
