@@ -9,6 +9,7 @@ const GifiksWebsiteCard = () => {
             description="A social media website similar to TikTok or Instagram, but it only uses Gifs."
             gitHubUrl="https://github.com/MrFiszbi1/Gifiks-Website"
             projectStack="React.js + TypeScript + Tailwind + DaisyUI + Docker + Vite + Firebase"
+            demoUrl="https://www.youtube.com/watch?v=2gIv8dPLcJU"
         />
     );
 }

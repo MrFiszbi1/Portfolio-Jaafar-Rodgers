@@ -9,6 +9,7 @@ const SAFECard = () => {
             description="Collaborated with an 8-member team to develop a website for PSU's CS department, enabling anonymous student feedback."
             gitHubUrl="https://github.com/PSU-MCECS-SAFE/SAFE"
             projectStack="React.js + TypeScript + Material UI + Jest"
+            demoUrl="https://www.youtube.com/watch?v=jXNqKNVhqEY"
         />
     );
 }

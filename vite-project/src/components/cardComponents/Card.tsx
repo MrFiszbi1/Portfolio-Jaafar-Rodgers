@@ -1,5 +1,6 @@
 import { GitButton } from "../buttonComponents/GitButton.tsx";
 import {LinkButton} from "../buttonComponents/LinkButton.tsx";
+import {DemoButton} from "../buttonComponents/DemoButton.tsx";
 
 interface CardProps {
     imagePath: string;
@@ -9,6 +10,7 @@ interface CardProps {
     gitHubUrl: string;
     projectStack: string;
     websiteUrl?: string;
+    demoUrl?: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -16,7 +18,7 @@ const Card: React.FC<CardProps> = ({
        altText,
        title,
        description, projectStack,
-       gitHubUrl, websiteUrl,
+       gitHubUrl, websiteUrl, demoUrl
    }) => {
     const baseUrl = import.meta.env.BASE_URL;
 
@@ -34,6 +36,7 @@ const Card: React.FC<CardProps> = ({
                 <p className="text-gray-300">{description}</p>
                 <p className="text-xs text-gray-500">Using: {projectStack}</p>
                 <div className="flex card-actions justify-end">
+                    {demoUrl && <DemoButton href={demoUrl}/>}
                     {websiteUrl && <LinkButton href={websiteUrl}/>}
                     <GitButton href={gitHubUrl}/>
                 </div>
