@@ -7,7 +7,7 @@ interface CardProps {
     altText: string;
     title: string;
     description: string;
-    gitHubUrl: string;
+    gitHubUrl?: string;
     projectStack: string;
     websiteUrl?: string;
     demoUrl?: string;
@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({
                 <img
                     src={`${baseUrl}${imagePath}`}
                     alt={altText}
-                    className="w-full h-[134px] object-cover object-top"
+                    className="w-full h-full object-cover object-top"
                 />
             </figure>
             <div className="card-body pt-3">
@@ -38,7 +38,7 @@ const Card: React.FC<CardProps> = ({
                 <div className="flex card-actions justify-end">
                     {demoUrl && <DemoButton href={demoUrl}/>}
                     {websiteUrl && <LinkButton href={websiteUrl}/>}
-                    <GitButton href={gitHubUrl}/>
+                    {gitHubUrl && <GitButton href={gitHubUrl}/>}
                 </div>
             </div>
         </div>
