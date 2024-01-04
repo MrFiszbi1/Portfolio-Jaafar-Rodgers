@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind themes;
 
 .portfolioStyle {
     background-color: #180baa;
@@ -61,4 +60,12 @@
 
 .projectHeader {
     @apply flex justify-start text-2xl px-2
+}
+
+.inputArea {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none
+}
+
+.formName {
+    @apply block text-gray-200 font-bold mb-2
 }

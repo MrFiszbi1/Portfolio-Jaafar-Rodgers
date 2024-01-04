@@ -1,10 +1,9 @@
 import '../assets/css/PortfolioStyles.css';
+import ContactForm from "../components/ContactForm";
 
 const ContactMePage = () => {
     return (
-        <div>
-            <h1>Contact Me Page</h1>
-        </div>
+        <ContactForm />
     );
 };
 
