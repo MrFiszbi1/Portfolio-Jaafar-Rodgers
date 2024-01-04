@@ -29,8 +29,8 @@ const ContactMeForm: React.FC = () => {
 
     return (
         <div className="container mx-auto bg-black rounded-lg overflow-auto m-6 p-3 sm:w-1/2 w-11/12">
-            <h2 className="mx-auto sm:text-4xl text-3xl mb-3 text-white flex justify-center">CONTACT ME</h2>
-            <form onSubmit={handleSubmit} className="rounded-lg shadow-md p-8 flex flex-col">
+            <h2 className="mx-auto sm:text-4xl text-3xl text-white flex justify-center">CONTACT ME</h2>
+            <form onSubmit={handleSubmit} className="rounded-lg shadow-md p-8 pt-6 flex flex-col">
                 <div className="mb-4">
                     <label htmlFor="name" className="formName">
                         Name
@@ -42,6 +42,7 @@ const ContactMeForm: React.FC = () => {
                         value={formData.name}
                         onChange={handleChange}
                         className="inputArea"
+                        required
                     />
                 </div>
                 <div className="mb-4">
@@ -55,9 +56,10 @@ const ContactMeForm: React.FC = () => {
                         value={formData.email}
                         onChange={handleChange}
                         className="inputArea"
+                        required
                     />
                 </div>
-                <div className="mb-6">
+                <div className="mb-3">
                     <label htmlFor="message" className="formName">
                         Message to Jaafar Rodgers
                     </label>
@@ -67,6 +69,7 @@ const ContactMeForm: React.FC = () => {
                         value={formData.message}
                         onChange={handleChange}
                         className="inputArea"
+                        required
                     />
                 </div>
                 <div className="flex items-center justify-center mt-3">
