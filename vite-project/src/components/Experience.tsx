@@ -5,6 +5,19 @@ export function Experience() {
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
                 <div className="jobTitle flex justify-between">
+                    Security Guard
+                    <span className="ml-auto"> Allied Universal - (03/2020 - 07/2022) and (12/2023 - Present)</span>
+                </div>
+                <div className="collapse-content">
+                    <p className="jobDescription">
+                        Ensuring building and personnel security, inspections of belongings, and de-escalation of
+                        conflicts.
+                    </p>
+                </div>
+            </div>
+            <div className="collapse collapse-arrow jobDropDown">
+                <input type="radio" name="my-accordion-2"/>
+                <div className="jobTitle flex justify-between">
                     Student Software Developer, Software Engineering Capstone
                     <span className="ml-auto">Portland State University - (1/2023 - 06/2023)</span>
                 </div>
@@ -68,20 +81,6 @@ export function Experience() {
                     <p className="jobDescription">
                         Assisted in online research, applications, and any other web assistance needed. Onsite worked to
                         build, repair, and improve a variety of different homes and buildings.
-                    </p>
-                </div>
-            </div>
-
-            <div className="collapse collapse-arrow jobDropDown">
-                <input type="radio" name="my-accordion-2"/>
-                <div className="jobTitle flex justify-between">
-                    Security Guard
-                    <span className="ml-auto"> Allied Universal - (03/2020 - 07/2022)</span>
-                </div>
-                <div className="collapse-content">
-                    <p className="jobDescription">
-                        Ensuring building and personnel security, inspections of belongings, and de-escalation of
-                        conflicts.
                     </p>
                 </div>
             </div>
