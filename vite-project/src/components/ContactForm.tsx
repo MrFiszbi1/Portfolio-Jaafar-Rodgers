@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
-
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 interface ContactMeFormData {
-    name: string;
-    email: string;
+    user_name: string;
+    user_email: string;
     message: string;
 }
 
 const ContactMeForm: React.FC = () => {
+    const formRef = useRef<HTMLFormElement>(null);
     const [formData, setFormData] = useState<ContactMeFormData>({
-        name: '',
-        email: '',
+        user_name: '',
+        user_email: '',
         message: '',
     });
 
@@ -20,17 +21,30 @@ const ContactMeForm: React.FC = () => {
         }));
     };
 
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
-        // Handle form submission logic here (e.g., send an email)
-        console.log('Form data:', formData);
+        try {
+            await emailjs.sendForm('service_7gw2omr', 'template_hj4xuuu', event.currentTarget, 'C9N5HW38g-13pxUFi')
+                .then((result) => {
+                    console.log('Email sent successfully!', result.text);
+                    setFormData({ user_name: '', user_email: '', message: '' });
+                    alert('Message sent successfully!');
+                })
+                .catch((error) => {
+                    console.error('Error sending email:', error.text);
+                    alert('Error sending message. Please try again later.');
+                });
+        } catch (error) {
+            console.error('Error sending email:', error);
+            alert('Error sending message. Please try again later.');
+        }
     };
 
     return (
         <div className="container mx-auto bg-black rounded-lg overflow-auto m-6 p-3 sm:w-1/2 w-11/12">
             <h2 className="mx-auto sm:text-4xl text-3xl text-white flex justify-center">CONTACT ME</h2>
-            <form onSubmit={handleSubmit} className="rounded-lg shadow-md p-8 pt-6 flex flex-col">
+            <form ref={formRef} onSubmit={handleSubmit} className="rounded-lg shadow-md p-8 pt-6 flex flex-col">
                 <div className="mb-4">
                     <label htmlFor="name" className="formName">
                         Name
@@ -38,8 +52,8 @@ const ContactMeForm: React.FC = () => {
                     <input
                         type="text"
                         id="name"
-                        name="name"
-                        value={formData.name}
+                        name="user_name"
+                        value={formData.user_name}
                         onChange={handleChange}
                         className="inputArea"
                         required
@@ -52,8 +66,8 @@ const ContactMeForm: React.FC = () => {
                     <input
                         type="email"
                         id="email"
-                        name="email"
-                        value={formData.email}
+                        name="user_email"
+                        value={formData.user_email}
                         onChange={handleChange}
                         className="inputArea"
                         required
