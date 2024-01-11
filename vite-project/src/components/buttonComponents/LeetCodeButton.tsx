@@ -1,12 +1,12 @@
-export function INButton() {
+export function LeetCodeButton() {
     return (
-        <a href="https://www.linkedin.com/in/jaafar-rodgers/"
+        <a href="https://leetcode.com/jaafarodgers/"
            target="_blank"
            rel="noopener noreferrer"
            className="linkButton">
             <img
-                src="/linkedin.svg"
-                alt="Link to LinkedIn page"
+                src="/leetcode.svg"
+                alt="Link to LeetCode page"
                 className="logo"
             />
         </a>

@@ -1,5 +1,6 @@
 import {INButton} from './buttonComponents/INButton.tsx';
 import {GitButton} from './buttonComponents/GitButton.tsx';
+import {LeetCodeButton} from "./buttonComponents/LeetCodeButton";
 
 export function Bio() {
     return (
@@ -15,6 +16,7 @@ export function Bio() {
             <div className="flex justify-center space-x-2 flex-row flex-wrap">
                 <INButton/>
                 <GitButton href="https://github.com/MrFiszbi1" />
+                <LeetCodeButton />
             </div>
         </div>
     )
