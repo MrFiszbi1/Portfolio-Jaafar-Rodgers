@@ -3,7 +3,7 @@ import Card from "./Card.tsx";
 const MoonCard = () => {
     return (
         <Card
-            imagePath="/images/My Basic Moon.jpg"
+            imagePath="images/My Basic Moon.jpg"
             altText="Picture of the sun"
             title="Basic Moon"
             description="Shadertoy learning project. A basic moon with changing moon visibility and rainbow halo animations"
