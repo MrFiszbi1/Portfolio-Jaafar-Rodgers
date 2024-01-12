@@ -3,7 +3,7 @@ import Card from "./Card.tsx";
 const GifiksWebsiteCard = () => {
     return (
         <Card
-            imagePath="src/assets/images/Gifiks-Website.jpg"
+            imagePath="/images/Gifiks-Website.jpg"
             altText="Picture of the Gifiks Website"
             title="Gifiks Website"
             description="A social media website similar to TikTok or Instagram, but it only uses Gifs."

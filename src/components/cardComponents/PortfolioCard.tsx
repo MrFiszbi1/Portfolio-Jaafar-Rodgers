@@ -3,7 +3,7 @@ import Card from "./Card.tsx";
 const PortfolioCard = () => {
     return (
         <Card
-            imagePath="src/assets/images/PortfolioJaafarRodgers.jpg"
+            imagePath="/images/PortfolioJaafarRodgers.jpg"
             altText="Picture of the Portfolio Website"
             title="Portfolio-Jaafar-Rodgers"
             description="Code for this website"

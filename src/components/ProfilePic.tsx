@@ -1,6 +1,6 @@
 export function ProfilePic() {
     const baseUrl = import.meta.env.BASE_URL;
-    const imagePath = "src/assets/images/Jaafar.jpg";
+    const imagePath = "/images/Jaafar.jpg";
 
     return (
         <img

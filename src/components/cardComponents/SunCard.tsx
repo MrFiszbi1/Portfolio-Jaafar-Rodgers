@@ -3,7 +3,7 @@ import Card from "./Card.tsx";
 const SunCard = () => {
     return (
         <Card
-            imagePath="src/assets/images/My Basic Sun.jpg"
+            imagePath="/images/My Basic Sun.jpg"
             altText="Picture of the sun"
             title="Basic Sun"
             description="Shadertoy learning project. A basic sun with moving and flaring sun animations"
