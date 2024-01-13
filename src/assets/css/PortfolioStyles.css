@@ -39,7 +39,7 @@
 }
 
 .jobTitle {
-    @apply btn-primary collapse-title sm:text-xl text-base font-medium flex justify-between;
+    @apply btn-primary collapse-title sm:text-xl text-lg font-medium flex justify-between;
 }
 
 .jobDate {
@@ -47,7 +47,7 @@
 }
 
 .jobDescription {
-    @apply bg-base-200 mt-4 rounded-md p-2 sm:text-base text-sm;
+    @apply bg-base-200 mt-4 rounded-md p-2 sm:text-lg text-base;
 }
 
 .tabButton {
@@ -79,9 +79,9 @@
 }
 
 .resumeEducationContent {
-    @apply bg-primary rounded p-4 sm:text-xl text-base font-medium flex justify-between
+    @apply bg-primary rounded p-4 sm:text-xl text-lg font-medium flex justify-between
 }
 
 .resumeSkillContent {
-    @apply bg-primary rounded p-4 sm:text-xl text-base font-medium mb-3
+    @apply bg-primary rounded p-4 sm:text-xl text-lg font-medium mb-3
 }
