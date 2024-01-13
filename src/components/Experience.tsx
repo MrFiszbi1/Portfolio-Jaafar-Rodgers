@@ -4,9 +4,9 @@ export function Experience() {
             <h1 className="resumeSectionTitle">Experience</h1>
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
-                <div className="jobTitle flex justify-between">
+                <div className="jobTitle">
                     Security Guard
-                    <span className="ml-auto"> Allied Universal - (03/2020 - 07/2022) and (12/2023 - Present)</span>
+                    <span className="jobDate"> Allied Universal - (03/2020 - 07/2022) and (12/2023 - Present)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
@@ -17,9 +17,9 @@ export function Experience() {
             </div>
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
-                <div className="jobTitle flex justify-between">
+                <div className="jobTitle">
                     Student Software Developer, Software Engineering Capstone
-                    <span className="ml-auto">Portland State University - (1/2023 - 06/2023)</span>
+                    <span className="jobDate">Portland State University - (1/2023 - 06/2023)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
@@ -42,9 +42,9 @@ export function Experience() {
             </div>
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
-                <div className="jobTitle flex justify-between">
+                <div className="jobTitle">
                     Help Desk Technician
-                    <span className="ml-auto">Computer Action Team at PSU - (10/2021 - 04/2023)</span>
+                    <span className="jobDate">Computer Action Team at PSU - (10/2021 - 04/2023)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
@@ -73,9 +73,9 @@ export function Experience() {
 
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
-                <div className="jobTitle flex justify-between">
+                <div className="jobTitle">
                     Assistant and Technician for general construction and repair
-                    <span className="ml-auto"> Pragmatic Services - (6/2018 - 3/2023)</span>
+                    <span className="jobDate"> Pragmatic Services - (6/2018 - 3/2023)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
@@ -87,9 +87,9 @@ export function Experience() {
 
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
-                <div className="jobTitle flex justify-between">
+                <div className="jobTitle">
                     Youth Counselor
-                    <span className="ml-auto"> Sons of Adam - (06/2018 - 07/2021)</span>
+                    <span className="jobDate"> Sons of Adam - (06/2018 - 07/2021)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">

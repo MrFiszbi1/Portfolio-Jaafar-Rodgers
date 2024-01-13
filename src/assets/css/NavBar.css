@@ -1,5 +1,5 @@
 .navBarItem {
-    @apply mx-1;
+    @apply mx-1 sm:text-base text-sm;
     display: flex;
     align-items: center;
 }

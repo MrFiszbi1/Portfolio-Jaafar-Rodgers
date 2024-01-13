@@ -39,11 +39,15 @@
 }
 
 .jobTitle {
-    @apply btn-primary collapse-title sm:text-xl text-base font-medium;
+    @apply btn-primary collapse-title sm:text-xl text-base font-medium flex justify-between;
+}
+
+.jobDate {
+    @apply ml-auto pl-3;
 }
 
 .jobDescription {
-    @apply bg-base-200 mt-4 rounded-md p-2;
+    @apply bg-base-200 mt-4 rounded-md p-2 sm:text-base text-sm;
 }
 
 .tabButton {
