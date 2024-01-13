@@ -39,7 +39,7 @@
 }
 
 .jobTitle {
-    @apply btn-primary collapse-title text-xl font-medium;
+    @apply btn-primary collapse-title sm:text-xl text-base font-medium;
 }
 
 .jobDescription {
@@ -68,4 +68,16 @@
 
 .formName {
     @apply block text-gray-200 font-bold mb-2
+}
+
+.resumeSectionTitle {
+    @apply mx-auto sm:text-4xl text-2xl mb-3
+}
+
+.resumeEducationContent {
+    @apply bg-primary rounded p-4 sm:text-xl text-base font-medium flex justify-between
+}
+
+.resumeSkillContent {
+    @apply bg-primary rounded p-4 sm:text-xl text-base font-medium mb-3
 }

@@ -1,7 +1,7 @@
 export function Experience() {
     return (
         <div className="flex flex-col bg-black rounded-lg overflow-auto m-6 p-3">
-            <h1 className="mx-auto sm:text-4xl text-3xl mb-3">Experience</h1>
+            <h1 className="resumeSectionTitle">Experience</h1>
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
                 <div className="jobTitle flex justify-between">

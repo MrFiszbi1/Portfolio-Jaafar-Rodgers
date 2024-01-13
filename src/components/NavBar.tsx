@@ -6,7 +6,7 @@ export function NavBar() {
         <nav className="bg-primary rounded-b shadow-lg mb-4">
             <div className="navbar">
                 <div className="navbar-left">
-                    <ul className="menu menu-horizontal flex flex-wrap">
+                    <ul className="menu menu-horizontal flex flex-wrap justify-center">
                         <li className="navBarItem">
                             <Link to="/">About Me</Link>
                         </li>
