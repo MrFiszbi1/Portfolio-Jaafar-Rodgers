@@ -28,7 +28,7 @@ export function Experience() {
                         TypeScript, React, Material UI, and Jest.
                     </p>
 
-                    <div className="bg-base-100 my-1 rounded-md p-2">
+                    <div className="jobHighlights">
                         <p>Highlights:</p>
                         <ul className="list-disc pl-6">
                             <li>System and functionality design</li>
@@ -53,7 +53,7 @@ export function Experience() {
                         worked on both Windows and Linux systems.
                     </p>
 
-                    <div className="bg-base-100 my-1 rounded-md p-2">
+                    <div className="jobHighlights">
                         <p>Highlights:</p>
                         <ul className="list-disc pl-6">
                             <li> Communicating to help students and faculty understand and utilize technological

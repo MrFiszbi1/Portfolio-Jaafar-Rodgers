@@ -50,6 +50,10 @@
     @apply bg-base-200 mt-4 rounded-md p-2 sm:text-lg text-base;
 }
 
+.jobHighlights {
+    @apply bg-base-100 my-1 rounded-md p-2 sm:text-lg text-base;
+}
+
 .tabButton {
     @apply hover:bg-violet-600 active:bg-violet-700 py-1 px-3 rounded
 }
