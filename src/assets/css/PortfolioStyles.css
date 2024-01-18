@@ -83,7 +83,7 @@
 }
 
 .resumeEducationContent {
-    @apply bg-primary rounded p-4 sm:text-xl text-lg font-medium flex justify-between
+    @apply bg-primary rounded p-4 sm:text-xl text-lg font-medium flex justify-between mb-3
 }
 
 .resumeSkillContent {
