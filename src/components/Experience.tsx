@@ -1,6 +1,6 @@
 export function Experience() {
     return (
-        <div className="flex flex-col bg-black rounded-lg overflow-auto m-6 p-3">
+        <div className="resumeBox">
             <h1 className="resumeSectionTitle">Experience</h1>
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>

@@ -5,7 +5,7 @@ import {LeetCodeButton} from "./buttonComponents/LeetCodeButton";
 export function Bio() {
     return (
         <div
-            className="flex flex-col bg-black rounded overflow-auto w-3/4 md:w-1/2 h-fit mx-3 px-3 pt-4 pb-6 shadow-2xl">
+            className="flex flex-col bg-base-300 rounded overflow-auto w-3/4 md:w-1/2 h-fit mx-3 px-3 pt-4 pb-6 shadow-2xl">
             <p className="sm:text-lg text-base">
                 I am a dedicated and results-driven professional with a solid foundation in Computer Science,
                 backed by a Bachelor of Science in Computer Science (GPA: 3.62) from Portland State University (PSU).

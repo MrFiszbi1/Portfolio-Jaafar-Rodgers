@@ -42,9 +42,9 @@ const ContactMeForm: React.FC = () => {
     };
 
     return (
-        <div className="container mx-auto bg-black rounded-lg overflow-auto m-6 p-3 sm:w-1/2 w-11/12">
-            <h2 className="mx-auto sm:text-4xl text-3xl text-white flex justify-center">CONTACT ME</h2>
-            <form ref={formRef} onSubmit={handleSubmit} className="rounded-lg shadow-md p-8 pt-6 flex flex-col">
+        <div className="container mx-auto bg-base-300 rounded-lg overflow-auto m-6 p-3 sm:w-1/2 w-11/12 shadow-2xl border">
+            <h2 className="mx-auto sm:text-4xl text-3xl flex justify-center">CONTACT ME</h2>
+            <form ref={formRef} onSubmit={handleSubmit} className="p-8 pt-6 flex flex-col">
                 <div className="mb-4">
                     <label htmlFor="name" className="formName">
                         Name

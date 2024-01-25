@@ -3,14 +3,9 @@
 @tailwind utilities;
 
 .portfolioStyle {
-    background-color: #180baa;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='386' height='386' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%2358D9FF' stroke-width='1' stroke-opacity='0.25'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
 
-    /*background-color: #ffffff;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
-
-
-      background-size: cover;*/
     background-attachment: fixed;
     position: fixed;
     padding: 0;
@@ -23,7 +18,6 @@
     height: 100%;
     background-repeat: repeat;
     overflow: auto;
-    color: white;
 }
 
 .linkButton {
@@ -34,12 +28,16 @@
     @apply w-full h-full py-1;
 }
 
+.resumeBox {
+    @apply flex flex-col bg-base-300 rounded-lg overflow-auto m-6 p-3;
+}
+
 .jobDropDown {
-    @apply bg-secondary my-2;
+    @apply bg-base-300 my-2 drop-shadow-md;
 }
 
 .jobTitle {
-    @apply btn-primary collapse-title sm:text-xl text-lg font-medium flex justify-between;
+    @apply bg-base-200 rounded-full collapse-title sm:text-xl text-lg font-medium flex flex-col justify-between drop-shadow-md p-8 sm:p-4;
 }
 
 .jobDate {
@@ -54,12 +52,32 @@
     @apply bg-base-100 my-1 rounded-md p-2 sm:text-lg text-base;
 }
 
+.resumeSectionTitle {
+    @apply mx-auto sm:text-4xl text-2xl mb-3
+}
+
+.resumeEducationContent {
+    @apply bg-base-200 rounded-full p-8 sm:p-4 sm:text-xl text-lg font-medium flex flex-col justify-between mb-3 drop-shadow-md
+}
+
+.resumeSkillContent {
+    @apply bg-base-200 rounded-full p-8 sm:p-4 sm:text-xl text-lg font-medium mb-3 drop-shadow-md
+}
+
 .tabButton {
-    @apply hover:bg-violet-600 active:bg-violet-700 py-1 px-3 rounded
+    @apply hover:bg-base-200 active:bg-base-100 py-1 px-3 rounded
 }
 
 .tabButton.active {
-    @apply bg-secondary;
+    @apply bg-base-100;
+}
+
+.tabArea {
+    @apply flex flex-row flex-wrap justify-center
+}
+
+.tabWindow {
+    @apply rounded-2xl bg-base-300 w-11/12 md:w-1/3 mx-4 mt-6 p-4 m-auto flex justify-center shadow-2xl;
 }
 
 .projectBox {
@@ -71,21 +89,9 @@
 }
 
 .inputArea {
-    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-inherit leading-tight focus:outline-none
 }
 
 .formName {
     @apply block text-gray-200 font-bold mb-2
-}
-
-.resumeSectionTitle {
-    @apply mx-auto sm:text-4xl text-2xl mb-3
-}
-
-.resumeEducationContent {
-    @apply bg-primary rounded p-4 sm:text-xl text-lg font-medium flex justify-between mb-3
-}
-
-.resumeSkillContent {
-    @apply bg-primary rounded p-4 sm:text-xl text-lg font-medium mb-3
 }

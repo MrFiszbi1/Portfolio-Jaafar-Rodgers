@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({
     const baseUrl = import.meta.env.BASE_URL;
 
     return (
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 h-96 bg-base-100 shadow">
             <figure>
                 <img
                     src={`${baseUrl}${imagePath}`}
