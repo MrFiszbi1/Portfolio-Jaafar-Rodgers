@@ -41,7 +41,7 @@
 }
 
 .jobDate {
-    @apply ml-auto pl-3;
+    @apply ml-auto px-4;
 }
 
 .jobDescription {
