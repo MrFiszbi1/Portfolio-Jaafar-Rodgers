@@ -33,8 +33,8 @@ const Card: React.FC<CardProps> = ({
             </figure>
             <div className="card-body pt-3">
                 <h2 className="card-title">{title}</h2>
-                <p className="text-gray-300">{description}</p>
-                <p className="text-xs text-gray-500">Using: {projectStack}</p>
+                <p className="text-gray-700">{description}</p>
+                <p className="text-xs text-gray-400">Using: {projectStack}</p>
                 <div className="flex card-actions justify-end">
                     {demoUrl && <DemoButton href={demoUrl}/>}
                     {websiteUrl && <LinkButton href={websiteUrl}/>}
