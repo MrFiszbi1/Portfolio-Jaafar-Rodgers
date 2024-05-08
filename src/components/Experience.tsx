@@ -5,8 +5,30 @@ export function Experience() {
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
                 <div className="jobTitle">
+                    Assistant II - Lab Support
+                    <span className="jobDate">UST / Intel - (3/2024 - Present)</span>
+                </div>
+                <div className="collapse-content">
+                    <p className="jobDescription">
+                        Worked as a Data Center technician for Intel, where I commissioned, decommissioned, reconfigured, and maintained servers.
+                        My main duty was as a member of the ticketing team. Using Jira to help solve tier 1&2 IT issues with servers.
+                    </p>
+
+                    <div className="jobHighlights">
+                        <p>Highlights:</p>
+                        <ul className="list-disc pl-6">
+                            <li>Debugging and Troubleshooting hardware server issues</li>
+                            <li>Flashing, configuring, and managing the server's BIOS, OS, drivers, and software</li>
+                            <li>Reconfiguring server hardware</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="collapse collapse-arrow jobDropDown">
+                <input type="radio" name="my-accordion-2"/>
+                <div className="jobTitle">
                     Security Guard
-                    <span className="jobDate"> Allied Universal - (03/2020 - 07/2022) and (12/2023 - Present)</span>
+                    <span className="jobDate">Allied Universal - (03/2020 - 07/2022) and (12/2023 - 3/2024)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
@@ -75,7 +97,7 @@ export function Experience() {
                 <input type="radio" name="my-accordion-2"/>
                 <div className="jobTitle">
                     Assistant and Technician for general construction and repair
-                    <span className="jobDate"> Pragmatic Services - (6/2018 - 3/2023)</span>
+                    <span className="jobDate">Pragmatic Services - (6/2018 - 3/2023)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
@@ -89,7 +111,7 @@ export function Experience() {
                 <input type="radio" name="my-accordion-2"/>
                 <div className="jobTitle">
                     Youth Counselor
-                    <span className="jobDate"> Sons of Adam - (06/2018 - 07/2021)</span>
+                    <span className="jobDate">Sons of Adam - (06/2018 - 07/2021)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
