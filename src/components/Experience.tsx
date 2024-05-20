@@ -5,12 +5,12 @@ export function Experience() {
             <div className="collapse collapse-arrow jobDropDown">
                 <input type="radio" name="my-accordion-2"/>
                 <div className="jobTitle">
-                    Assistant II - Lab Support
+                    Data Center Technician
                     <span className="jobDate">UST / Intel - (3/2024 - Present)</span>
                 </div>
                 <div className="collapse-content">
                     <p className="jobDescription">
-                        Worked as a Data Center technician for Intel, where I commissioned, decommissioned, reconfigured, and maintained servers.
+                        Worked for Intel (via UST), where I commissioned, decommissioned, reconfigured, and maintained servers.
                         My main duty was as a member of the ticketing team. Using Jira to help solve tier 1&2 IT issues with servers.
                     </p>
 
